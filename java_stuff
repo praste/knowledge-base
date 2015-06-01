@@ -1,0 +1,8 @@
+1. JAVA Hotspot VM options
+ http://www.oracle.com/technetwork/articles/java/vmoptions-jsp-140102.html
+
+2. How to use TNS_NAMES in jdbc urls
+   2.1. Add jvm commandline option '-Doracle.net.tns_admin'. Value of this property should point to the directory containing 'tnsnames.ora' file e.g. -Doracle.net.tns_admin=/path/to/tnsadmin/
+   2.2 Change value of jdbc.url property to 'jdbc:oracle:thin:@TNS_NAME
+here TNS_NAME is name of the entry in tns file pointing to your DB cluster
+  
