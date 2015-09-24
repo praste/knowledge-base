@@ -7,3 +7,6 @@
    2.2 Change value of jdbc.url property to 'jdbc:oracle:thin:@TNS_NAME
 here TNS_NAME is name of the entry in tns file pointing to your DB cluster
   
+
+3. Garbage collection tuning java 8
+http://docs.oracle.com/javase/8/docs/technotes/guides/vm/gctuning/toc.html
